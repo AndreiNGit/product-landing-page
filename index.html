@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Product Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header id="header">
+            <a href="#" id="home-link">
+                <img src="./src/logo.svg" alt="company logo" id="header-img">
+            </a>
+
+            <nav id="nav-bar">
+                <ul>
+                    <li>
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+
+                    <li>
+                        <a href="#curriculum" class="nav-link">Curriculum</a>
+                    </li>
+
+                    <li>
+                        <a href="#pros" class="nav-link">Pros</a>
+                    </li>
+
+                    <li>
+                        <a href="#form" class="nav-link">Form</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <article>
+            <section id="about">
+                <h2 id="h2-about">What are we doing?</h2>
+                <p>
+                    FreeCodeCamp is a non-profit organization that consists of an interactive learning web platform, an online community forum, chat rooms, online publications and local organizations that intend to make learning web development accessible to anyone. 
+                    Beginning with tutorials that introduce students to HTML, CSS and JavaScript, students progress to project assignments that they complete either alone or in pairs. Upon completion of all project tasks, students are partnered with other nonprofits to build web applications, giving the students practical development experience.
+                </p>
+
+                <p>
+                    Our mission: to help people learn to code for free. 
+                    We accomplish this by creating thousands of videos, articles, and interactive coding lessons - all freely available to the public. 
+                    We also have thousands of freeCodeCamp study groups around the world.
+                </p>
+
+                <h3>Presentation Video</h3>
+                <video src="./src/presentation.mp4" controls >
+            </section>
+
+            <section id="curriculum">
+                <h2>What will you learn with us?</h2>
+
+                <p>
+                    The self-paced curriculum involves 1,400 hours of interactive coding challenges and web development projects, plus 800 hours of contributing to open-source projects for nonprofits and is constantly expanded by more challenges and projects. 
+                    This translates into about one year of full-time coding. The curriculum is divided into Responsive Web Design, JavaScript Algorithms and Data Structures, Front End Libraries, Data Visualization, APIs and Microservices, and Information Security and Quality Assurance. Participants receive a certificate after completing each section.
+                </p>
+
+                <p>
+                    The curriculum emphasizes pair programming, intended to foster a culture of collaboration and shared learning, which can overcome a student's doubts about the adequacy of their skills (popularly referred to as “impostor syndrome”).
+                </p>
+
+                <p>
+                    The languages and technologies currently taught by freeCodeCamp include HTML5, CSS 3, JavaScript, jQuery, Bootstrap, Sass, React.js, Node.js, Express.js, MongoDB, and Git.
+                </p>
+
+                <div id="img-logos">
+                    <img src="./src/css3" class="logos" >
+                    <img src="./src/html.png" class="logos">
+                    <img src="./src/javascript_round.png" class="logos">
+                </div>
+
+            </section>
+
+            <section id="pros">
+                <h2>Why choose us?</h2>
+
+                <div id="pros-wrapper">
+                    <div class="pro-div">
+                        <h3>Time</h3>
+                        <img src="./src/stopwatch.svg" class="icons">
+                        <p>
+                            You can learn at your own pace without any deadline. 
+                            You can't be left behind because there is no pace to follow. 
+                            You can take as many brakes as you want.
+                        </p>
+                    </div>
+
+                    <div class="pro-div">
+                        <h3>Free of cost</h3>
+                        <img src="./src/money.svg" class="icons">
+                        <p>
+                            You will not empty your pocket for some courses anymore. 
+                            You can learn for free so bring your motivation. 
+                        </p>
+                    </div>
+
+                    <div class="pro-div">
+                        <h3>Big community</h3>
+                        <img src="./src/group.svg" class="icons">
+                        <p>
+                            There are a lot of people in the community trying and struggling just like you. 
+                            You can share your projects or you can ask for help. 
+                            Someone will help you for sure.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="form">
+                <h2>Do you want to say something to us?</h2>
+
+                <form action="" id="form">
+                    <div id="name-div">
+                        <label for="name">Name:</label>
+                        <input type="name" name="name" id="name" placeholder="Your name">
+                    </div>
+
+                    <div id="email-div">
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" placeholder="example@domain.com">
+                    </div>
+
+                    <div id="textarea-div">
+                        <p>What do you want to say?</p>
+                        <textarea id="textarea" cols="45" rows="6"></textarea>
+                    </div>
+
+                    <input type="button" value="Submit" id="submit">
+                </form>
+            </section>
+        </article>
+
+        <footer>
+            <div>Icons made by <a href="https://www.flaticon.com/authors/srip" title="srip">srip</a>, <a href="https://www.flaticon.com/authors/prosymbols" title="Prosymbols">Prosymbols</a>, <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+            <p>Designed by Andrei Nicusor Andrei</p>
+        </footer>
+    </body>
+</html>
